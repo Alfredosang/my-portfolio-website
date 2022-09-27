@@ -19,16 +19,16 @@ const Nav = () => {
         <a className='text-white  mr-2 px-5 py-2 bg-red-700  rounded hover:bg-white hover:text-black  duration-200' href='/Contact'>Hire me</a>
       </div>
       <div onClick={() => setNav(!nav)} className=' z-10 m-7 text-white cursor-pointer md:hidden'>
-        {nav ? <FaTimes size={35} /> : <FaBars size={35} />}
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 
         {nav && (
-          <div className=' flex flex-col items-center justify-center bg-gradient-to-b  from-black to-gray-900 absolute top-0 left-0 w-full h-screen'>
-            <a className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/home'>Home</a>
-            <a className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/about'>About</a>
-            <a className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/tools'>Tools</a>
-            <a className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/projects'>Project</a>
-            <a className='text-red-600 text-4xl m-5 font-bold cursor-pointer hover:scale-105 duration-200 ' href='/Contact'>Hire me</a>
-          </div>
+          <ul className=' flex flex-col items-center justify-center bg-gradient-to-b  from-black to-gray-900 absolute top-0 left-0 w-full h-screen'>
+            <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/home'>Home</li>
+            <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/about'>About</li>
+            <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/tools'>Tools</li>
+            <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/projects'>Project</li>
+            <li className='text-red-600 text-4xl m-5 font-bold cursor-pointer hover:scale-105 duration-200 ' href='/Contact'>Hire me</li>
+          </ul>
         )}
 
 

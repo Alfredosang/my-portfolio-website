@@ -14,11 +14,11 @@ const Tools = () => {
                     <h1 className='text-white font-bold text-2xl '>Tools</h1>
 
                 </div>
-                <div className='container grid sm:grid-col-1  md:grid-col-4 xl:grid-cols-6 gap-8 mx-auto'>
+                <div className='container justify-center items-center grid grid-col-1  md:grid-col-4 lg:grid-cols-6 gap-8 mx-auto'>
 
-                    <div>
-                        <div className='flex flex-col items-center justify-center w-90  bg-black shadow-md shadow-orange-600 rounded-full '>
-                            <img src={one} alt='HTML' className='w-60  rotate-0 hover:rotate-45 duration-300 p-10' />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center justify-center w-[150px]   bg-black shadow-md shadow-orange-600 rounded-full '>
+                            <img src={one} alt='HTML' className='  rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
                         </div>
@@ -28,9 +28,9 @@ const Tools = () => {
 
                     </div>
 
-                    <div>
-                        <div className='flex flex-col items-center justify-center w-90 bg-black shadow-md shadow-blue-500 rounded-full '>
-                            <img src={two} alt='CSS' className='w-60 rotate-0 hover:rotate-45 duration-300 p-10' />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center justify-center w-[150px] bg-black shadow-md shadow-blue-500 rounded-full '>
+                            <img src={two} alt='CSS' className=' rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
                         </div>
@@ -40,9 +40,9 @@ const Tools = () => {
 
                     </div>
 
-                    <div>
-                        <div className='flex flex-col items-center justify-center w-90 bg-black shadow-md shadow-yellow-500 rounded-full '>
-                            <img src={three} alt='JAVASCRIPT' className='w-60 rotate-0 hover:rotate-45 duration-300 p-10' />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center justify-center w-[150px] bg-black shadow-md shadow-yellow-500 rounded-full '>
+                            <img src={three} alt='JAVASCRIPT' className=' rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
                         </div>
@@ -52,9 +52,9 @@ const Tools = () => {
 
                     </div>
 
-                    <div>
-                        <div className='flex flex-col items-center justify-center w-90 bg-black shadow-md shadow-blue-400 rounded-full '>
-                            <img src={four} alt='TAILWIND' className='w-60 rotate-0 hover:rotate-45 duration-300 p-10' />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center justify-center w-[150px] bg-black shadow-md shadow-blue-400 rounded-full '>
+                            <img src={four} alt='TAILWIND' className=' rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
                         </div>
@@ -64,9 +64,9 @@ const Tools = () => {
 
                     </div>
 
-                    <div>
-                        <div className='flex flex-col items-center justify-center w-90 bg-black shadow-md shadow-blue-600 rounded-full '>
-                            <img src={five} alt='HTML' className='w-60 rotate-0 hover:rotate-45 duration-300 p-10' />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center justify-center w-[150px] bg-black shadow-md shadow-blue-600 rounded-full '>
+                            <img src={five} alt='HTML' className=' rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
                         </div>
@@ -76,9 +76,9 @@ const Tools = () => {
 
                     </div>
 
-                    <div>
-                        <div className='flex flex-col items-center justify-center w-90 bg-black shadow-md shadow-yellow-600 rounded-full '>
-                            <img src={six} alt='FIREBASE' className='w-60 rotate-0 hover:rotate-45 duration-300 p-10' />
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex flex-col items-center justify-center w-[150px] bg-black shadow-md shadow-yellow-600 rounded-full '>
+                            <img src={six} alt='FIREBASE' className=' rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
                         </div>
