@@ -2,15 +2,15 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name='About' className='bg '>
-            <div className=' container flex flex-col  items-center px-24 mx-auto '>
+        <div name='About' >
+            <div className=' container flex flex-col justify-center items-center px-10 mx-auto '>
                 <div className='flex  items-center    px-3 py-2  border-b-4  border-red-700 mb-10 '>
                     <h1 className='text-white font-bold text-2xl '>About</h1>
 
                 </div>
                 <div>
 
-                    <p className='text-white text-xl px-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+                    <p className='text-white text-xl '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
                         natus quaerat quae earum.  Quos beatae impedit aut, odio maxime nemo neque doloremque,
                         eius iure eum id autem accusamus
                         optio aspernatur provident non et ratione, officia a minima velit numquam. Sed assumenda

@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div>
+    <div >
       <Nav />
       <Hero />
       <About />
