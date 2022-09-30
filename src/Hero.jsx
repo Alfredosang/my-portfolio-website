@@ -13,7 +13,7 @@ const Hero = () => {
                 <div>
                     <h2 className='text-white font-bold text-3xl md:text-5xl mt-3 mb-3 py-3 md:leading-[55px] hover:scale-105 duration-200'>Hello my name is  Alfred Osang, I'm a Frontend Developer. </h2>
 
-                <p className='text-gray-400 md:text-2xl hover:scale-105 duration-200 '>I develop problem solving web apps, for small and large scale businesses...</p>
+                <p className='text-gray-300 md:text-2xl hover:scale-105 duration-200 '>I develop problem solving web apps, for small and large scale businesses...</p>
                     
 
                 </div>
