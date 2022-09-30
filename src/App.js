@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App bg-gradient-to-b from-gray-900 to-black ">
+    <div>
       <Nav />
       <Hero />
       <About />

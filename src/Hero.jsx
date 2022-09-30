@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='container flex flex-col pt-24 md:flex-row justify-center items-center space-x-1 px-24 mx-auto'>
                 <div >
                     
-                    <img src={brandpic} alt='Brand Pic' className='w-5/5  hover:scale-105 duration-300 '></img>
+                    <img src={brandpic} alt='Brand Pic' className='w-[1000px]  hover:scale-105 duration-300 '></img>
 
                 </div>
                 <div>
