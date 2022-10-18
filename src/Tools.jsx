@@ -39,26 +39,16 @@ const Tools = () => {
             pix: six,
             id: 6
         },
-        // <div className='flex flex-col justify-center items-center'>
-        //                 <div className='flex flex-col items-center justify-center w-[150px]   bg-black shadow-md shadow-orange-600 rounded-full '>
-        //                     <img src={one} alt='HTML' className='  rotate-0 hover:rotate-45 duration-300 p-5' />
-
-
-        //                 </div>
-        //                 <div>
-        //                     <h2 className='text-white pt-10'>HTML</h2>
-        //                 </div>
-
-        //             </div>
+        
     ]
     return (
         <div className='container mx-auto'>
             <div className='flex  justify-center px-3 py-2 mt-16 mb-5 '>
-                    <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Tools</h1>
+                <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Tools</h1>
 
-                </div>
+            </div>
             <div className='flex flex-wrap gap-8 justify-center'>
-                
+
                 {
                     tool.map((item) => {
                         return (

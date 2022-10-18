@@ -3,7 +3,7 @@ import './App.css';
 import Hero from './Hero';
 import About from './About';
 import Tools from './Tools';
-import Project from './Project';
+import Projects from './Projects';
 import Contact from './Contact';
 
 function App() {
@@ -12,8 +12,9 @@ function App() {
       <Nav />
       <Hero />
       <About />
+      <Projects />
       <Tools />
-      <Project />
+      
       <Contact />
 
       
