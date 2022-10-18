@@ -1,10 +1,11 @@
 import React from 'react'
 import brandpic from './Assets/brandpic.png'
 
+
 const Hero = () => {
     return (
-        <div>
-            <div className='container flex flex-col pt-24 md:flex-row md:justify-center md:items-center  px-10 mx-auto'>
+        <div className='her pt-16 pb-16 md:pb-60'>
+            <div className='container flex flex-col pt-0 md:pt-16 md:flex-row md:justify-center md:items-center  px-10 mx-auto'>
                 <div >
 
                     <img src={brandpic} alt='Brand Pic' className='w-[1000px]  hover:scale-105 duration-300 object-cover object-center '></img>

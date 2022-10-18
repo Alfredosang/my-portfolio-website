@@ -12,11 +12,11 @@ const Nav = () => {
       </div>
 
       <div className=' pr-10 hidden md:flex'>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-700 hover:border-white  duration-200' href='/home'>Home</a>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-700 hover:border-white  duration-200' href='/about'>About</a>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-700 hover:border-white  duration-200' href='/tools'>Tools</a>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-700 hover:border-white  duration-200' href='/projects'>Project</a>
-        <a className='text-white  mr-2 px-5 py-2 bg-red-700  rounded hover:bg-white hover:text-black  duration-200' href='/Contact'>Hire me</a>
+        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/home'>Home</a>
+        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/about'>About</a>
+        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/tools'>Tools</a>
+        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/projects'>Project</a>
+        <a className='text-white  mr-2 px-5 py-2 bg-red-800  rounded hover:bg-white hover:text-black  duration-200' href='/Contact'>Hire me</a>
       </div>
       <div onClick={() => setNav(!nav)} className=' z-10 m-7 text-white cursor-pointer md:hidden'>
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
