@@ -10,11 +10,11 @@ const Contact = () => {
                 </div>
             
             <div className='flex justify-center '>
-                <form className=' flex flex-col justify-center  '>
-                    <input type='text' placeholder='Name' className='w-[23rem] md:w-[50rem] m-1 p-3 rounded-full outline-none  opacity-90 ' />
-                    <input type='email' placeholder='Email' className='w-[23rem] md:w-[50rem] m-1 p-3 rounded-full outline-none opacity-90' />
-                    <textarea type='text' placeholder='Message' className='w-[23rem] md:w-[50rem] m-1 p-3 rounded-full outline-none opacity-90' />
-                    <button className='w-[23rem] md:w-[50rem] bg-red-800 text-white m-1 px-5 py-4 rounded-full'>Send Message</button>
+                <form action='https://getform.io/f/c7f0dcef-a313-4d5c-9284-0e5472fb2e09' method='POST' className=' flex flex-col justify-center  '>
+                    <input type='text' placeholder='Name' className='w-[23rem] md:w-[50rem] m-1 p-3 rounded-md outline-none  opacity-90 ' />
+                    <input type='email' placeholder='Email' className='w-[23rem] md:w-[50rem] m-1 p-3 rounded-md outline-none opacity-90' />
+                    <textarea type='text' placeholder='Message' className='w-[23rem] md:w-[50rem] m-1 p-3 rounded-md outline-none opacity-90' />
+                    <button className='w-[23rem] md:w-[50rem] bg-red-800 text-white m-1 px-5 py-4 rounded-md hover:bg-white/70 hover:text-black duration-200'>Send Message</button>
 
 
                 </form>

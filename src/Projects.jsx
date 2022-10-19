@@ -41,9 +41,9 @@ const Projects = () => {
                                 <div>
                                     <img src={item.pix} alt='Project graphics' className='object-cover object-center w-[300px] md:w-[800px] hover:scale-105 duration-200' />
                                 </div>
-                                <div className='bg-red-800 w-[300px] md:w-[800px] h-10 md:h-16 flex justify-between p-2 md:p-5'>
+                                <div className='bg-red-800 w-[300px] md:w-[800px] h-12 md:h-16 flex justify-between p-2 md:p-4'>
                                     <div><h1 className='text-white md:text-xl '>{item.name}</h1></div>
-                                    <div><a href={item.src} className='text-white md:text-xl '>View Project</a></div>
+                                    <div className=' bg-white shadow-md shadow-black hover:shadow-inner rounded-md py-1 px-3 md:px-4'><a href={item.src} className='text-red-800 text-sm hover:text-red-500 md:text-xl  '>View  project</a></div>
                                 </div>
 
                             </div>
