@@ -42,7 +42,7 @@ const Tools = () => {
         
     ]
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto flex flex-col items-center mb-16'>
             <div className='flex  justify-center px-3 py-2 mt-16 mb-5 '>
                 <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Tools</h1>
 
@@ -52,8 +52,8 @@ const Tools = () => {
                 {
                     tool.map((item) => {
                         return (
-                            <div key={item.id} className='flex flex-col justify-center md:px-16 items-center'>
-                                <div className='flex flex-col items-center justify-center w-[150px] md:w-[250px]   bg-black shadow-md shadow-red-800 rounded-full '>
+                            <div key={item.id} className='flex flex-col justify-center md:px-24 items-center'>
+                                <div className='flex flex-col items-center justify-center w-[150px] md:w-[200px]   bg-black shadow-md shadow-red-800 rounded-full '>
                                     <img src={item.pix} alt='HTML' className='  rotate-0 hover:rotate-45 duration-300 p-5' />
 
 

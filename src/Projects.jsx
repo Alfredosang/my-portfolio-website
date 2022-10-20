@@ -33,15 +33,15 @@ const Projects = () => {
                 <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Projects</h1>
 
             </div>
-            <div className='flex flex-wrap gap-8 justify-center'>
+            <div className='flex flex-wrap gap-4 justify-center md:p-24'>
                 {
                     project.map((item) => {
                         return (
                             <div key={item.id} className='flex flex-col items-center '>
                                 <div>
-                                    <img src={item.pix} alt='Project graphics' className='object-cover object-center w-[300px] md:w-[800px] hover:scale-105 duration-200' />
+                                    <img src={item.pix} alt='Project graphics' className='object-cover object-center w-[300px] md:w-[500px] hover:scale-105 duration-200' />
                                 </div>
-                                <div className='bg-red-800 w-[300px] md:w-[800px] h-12 md:h-16 flex justify-between p-2 md:p-4'>
+                                <div className='bg-red-800 w-[300px] md:w-[500px] h-12 md:h-16 flex justify-between p-2 md:p-4'>
                                     <div><h1 className='text-white md:text-xl '>{item.name}</h1></div>
                                     <div className=' bg-white shadow-md shadow-black hover:shadow-inner rounded-md py-1 px-3 md:px-4'><a href={item.src} className='text-red-800 text-sm hover:text-red-500 md:text-xl  '>View  project</a></div>
                                 </div>

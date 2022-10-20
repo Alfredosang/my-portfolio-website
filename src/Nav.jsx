@@ -5,7 +5,7 @@ import { useState } from 'react';
 const Nav = () => {
   const [nav, setNav] = useState(false);
   return (
-    <div className='bg-gradient-to-l from-gray-900 to-black opacity-90 fixed z-10 w-full h-20 py-5 flex flex-row justify-between items-center  mx-auto'>
+    <div className='bg-gradient-to-l from-black to-red-900 opacity-70 fixed z-10 w-full h-20 py-5 flex flex-row justify-between items-center  mx-auto'>
       <div>
         <h1 className='text-white font-bold pl-10'>Alfred Osang</h1>
 
