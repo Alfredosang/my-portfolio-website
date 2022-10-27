@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 
 const Nav = () => {
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(false);
   return (
     <div className='bg-gradient-to-l from-black to-red-900 md:opacity-70 fixed z-10 w-full h-20 py-5 flex flex-row justify-between items-center  mx-auto'>
       <div>
