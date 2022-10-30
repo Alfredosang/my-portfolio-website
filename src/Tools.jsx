@@ -45,8 +45,10 @@ const Tools = () => {
         <div className='container mx-auto flex flex-col items-center mb-16'>
             <div className='flex  justify-center px-3 py-2 mt-16 mb-5 '>
                 <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Tools</h1>
+                
 
             </div>
+            <div ><p className='text-white md:text-xl my-7'>Here are some of the tools I use.</p></div>
             <div className='flex flex-wrap gap-8 justify-center'>
 
                 {

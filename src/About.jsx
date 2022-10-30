@@ -14,7 +14,10 @@ const About = () => {
                     <p className='text-white sm:text-2xl sm:p-16 '>
                     I have a B.Sc. in computer science and am a certified React developer.
                      I create reusable, scalable, and optimized client-side features, structures,
-                      and designs for web pages to improve user experience.
+                      and designs for web pages to improve user experience.My background in graphic
+                       design and design thinking offers me an advantage
+                       as a frontend developer because I can readily interpret
+                        UI concepts and transfer them into reusable and scalable code.
                     </p>
                 </div>
 

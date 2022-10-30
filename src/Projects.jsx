@@ -7,24 +7,25 @@ const Projects = () => {
     const project = [
         {
             id: 1,
-            pix: moviez,
-            name: 'Movie Zone',
-            src: 'https://moviezone11.netlify.app',
-            code: ''
-        },
-        {
-            id: 2,
             pix: swift,
             name: 'Swift Nation',
             src: 'https://swiftnation.netlify.app',
-            code: ''
+            about: 'Swift Nation is a bogus automobile website that provides information and photographs of many exotic vehicles.'
         },
+        {
+            id: 2,
+            pix: moviez,
+            name: 'Movie Zone',
+            src: 'https://moviezone11.netlify.app',
+            about: 'Similar to Net 9ja, Movie Zone is a movie web application. It uses an external API to retrieve movie information based on several categories.'
+        },
+
         {
             id: 3,
             pix: todo,
-            name: 'Freddie App',
+            name: 'Fredie App',
             src: 'https://dreamy-granita-d592df.netlify.app/',
-            code: ''
+            about: 'The Fredie app is merely a to-do list that facilitates the recording of your plans.'
         }
     ]
     return (
@@ -37,15 +38,20 @@ const Projects = () => {
                 {
                     project.map((item) => {
                         return (
-                            <div key={item.id} className='flex flex-col items-center '>
-                                <div>
-                                    <img src={item.pix} alt='Project graphics' className='object-cover object-center w-[300px] md:w-[500px] hover:scale-105 duration-200' />
-                                </div>
-                                <div className='bg-red-800 w-[300px] md:w-[500px] h-12 md:h-16 flex justify-between p-2 md:p-4'>
-                                    <div><h1 className='text-white md:text-xl '>{item.name}</h1></div>
-                                    <div className=' bg-white shadow-md shadow-black hover:shadow-inner rounded-md py-1 px-3 md:px-4'><a href={item.src} className='text-red-800 text-sm hover:text-red-500 md:text-xl  '>View  project</a></div>
-                                </div>
+                            <div className='grid grid-cols-1  sm:grid-cols-2 gap-5 mb-7'>
+                                <div key={item.id} className='flex flex-col items-center '>
+                                    <div>
+                                        <img src={item.pix} alt='Project graphics' className='object-cover object-center w-[300px] md:w-[500px] hover:scale-105 duration-200' />
+                                    </div>
+                                    <div className='bg-red-800 w-[300px] md:w-[500px] h-12 md:h-16 flex justify-between p-2 md:p-4'>
+                                        <div><h1 className='text-white md:text-xl '>{item.name}</h1></div>
+                                        <div className=' bg-white shadow-md shadow-black hover:shadow-inner rounded-md py-1 px-3 md:px-4'><a href={item.src} className='text-red-800 text-sm hover:text-red-500 md:text-xl  '>View  project</a></div>
+                                    </div>
 
+                                </div>
+                                <div className='flex flex-col items-start'>
+                                    <p className='text-white md:text-xl px-10 sm:px-16'>{item.about}</p>
+                                </div>
                             </div>
                         )
                     })
