@@ -42,7 +42,7 @@ const Tools = () => {
         
     ]
     return (
-        <div className='container mx-auto flex flex-col items-center mb-16'>
+        <div className='container mx-auto flex flex-col items-center mb-16' id='tools'>
             <div className='flex  justify-center px-3 py-2 mt-16 mb-5 '>
                 <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Tools</h1>
                 

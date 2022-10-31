@@ -1,4 +1,6 @@
 import React from 'react';
+// import * as Scroll from 'react-scroll';
+import {Link} from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 
@@ -12,23 +14,24 @@ const Nav = () => {
       </div>
 
       <div className=' pr-10 hidden md:flex'>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/home'>Home</a>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/about'>About</a>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/tools'>Tools</a>
-        <a className='text-white  mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' href='/projects'>Project</a>
-        <a className='text-white  mr-2 px-5 py-2 bg-red-800  rounded hover:bg-white hover:text-black  duration-200' href='/Contact'>Hire me</a>
+        <Link spy={true} smooth={true} offset={-100} duration={500} className='text-white cursor-pointer mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' to='home'>Home</Link>
+        <Link spy={true} smooth={true} offset={-100} duration={500} className='text-white cursor-pointer mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' to='about'>About</Link>
+        <Link spy={true} smooth={true} offset={-100} duration={500} className='text-white cursor-pointer mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' to='projects'>Projects</Link>
+        <Link spy={true} smooth={true} offset={-100} duration={500} className='text-white cursor-pointer mr-3 px-5 py-2 border-b-4  border-red-800 hover:border-white  duration-200' to='tools'>Tools</Link>
+        <Link spy={true} smooth={true} offset={-100} duration={500} className='text-white cursor-pointer mr-2 px-5 py-2 bg-red-800  rounded hover:bg-white hover:text-black  duration-200' to='contact'>Hire me</Link>
       </div>
       <div onClick={() => setNav(!nav)} className=' z-50 m-7 text-white cursor-pointer md:hidden'>
       {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}</div>
 
       {nav && (
-        <ul className=' flex flex-col items-center justify-center bg-black  absolute top-0 left-0 w-full h-screen'>
-          <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/home'>Home</li>
-          <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/about'>About</li>
-          <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/tools'>Tools</li>
-          <li className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' href='/projects'>Project</li>
-          <li className='text-red-800 text-4xl m-5 font-bold cursor-pointer hover:scale-105 duration-200 ' href='/Contact'>Hire me</li>
-        </ul>
+        <div  className={`${!nav? 'hidden' :'flex' }  flex-col items-center justify-center bg-black  absolute top-0 left-0 w-full h-screen`}>
+         
+        <Link onClick={() => setNav(!nav)} spy={true} smooth={true} offset={-100} duration={500} className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' to='home'>Home</Link>
+        <Link onClick={() => setNav(!nav)} spy={true} smooth={true} offset={-100} duration={500} className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' to='about'>About</Link>
+        <Link onClick={() => setNav(!nav)} spy={true} smooth={true} offset={-100} duration={500} className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' to='projects'>Projects</Link>
+        <Link onClick={() => setNav(!nav)} spy={true} smooth={true} offset={-100} duration={500} className='text-white text-4xl m-5  cursor-pointer hover:scale-105 duration-200' to='tools'>Tools</Link>
+        <Link onClick={() => setNav(!nav)} spy={true} smooth={true} offset={-100} duration={500} className='text-red-800 text-4xl m-5 font-bold cursor-pointer hover:scale-105 duration-200 ' to='contact'>Hire me</Link>
+        </div>
       )}
 
 

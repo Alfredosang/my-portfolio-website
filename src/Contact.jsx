@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='footer flex items-center'>
+        <div className='footer flex items-center' id='contact'>
             
         <div className='container  mx-auto mb-10 ' >
             <div className='flex  justify-center px-3 py-2 mt-5 mb-5 '>

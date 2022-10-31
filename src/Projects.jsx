@@ -29,7 +29,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div className='container mx-auto my-12'>
+        <div className='container mx-auto my-12' id='projects'>
             <div className='flex  justify-center px-3 py-2 mt-16 mb-5 '>
                 <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Projects</h1>
 
@@ -45,7 +45,7 @@ const Projects = () => {
                                     </div>
                                     <div className='bg-red-800 w-[300px] md:w-[500px] h-12 md:h-16 flex justify-between p-2 md:p-4'>
                                         <div><h1 className='text-white md:text-xl '>{item.name}</h1></div>
-                                        <div className=' bg-white shadow-md shadow-black hover:shadow-inner rounded-md py-1 px-3 md:px-4'><a href={item.src} className='text-red-800 text-sm hover:text-red-500 md:text-xl  '>View  project</a></div>
+                                        <div className=' bg-white shadow-md shadow-black hover:shadow-inner rounded-md py-1 px-3 md:px-4'><a href={item.src} target='blank' className='text-red-800 text-sm hover:text-red-500 md:text-xl  '>View  project</a></div>
                                     </div>
 
                                 </div>
