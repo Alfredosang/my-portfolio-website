@@ -2,18 +2,26 @@ import React from 'react'
 import swift from './Assets/swift.png'
 import moviez from './Assets/moviez.png'
 import todo from './Assets/todo.png'
+import classic from './Assets/classic.png'
 
 const Projects = () => {
     const project = [
         {
             id: 1,
+            pix: classic,
+            name: 'Classic Man',
+            src: 'https://classicman.netlify.app/',
+            about: 'An e commerce store for men corporate wares and accessories, developed with react and commerce js.'
+        },
+        {
+            id: 2,
             pix: swift,
             name: 'Swift Nation',
             src: 'https://swiftnation.netlify.app',
             about: 'Swift Nation is a bogus automobile website that provides information and photographs of many exotic vehicles.'
         },
         {
-            id: 2,
+            id: 3,
             pix: moviez,
             name: 'Movie Zone',
             src: 'https://moviezone11.netlify.app',
@@ -21,7 +29,7 @@ const Projects = () => {
         },
 
         {
-            id: 3,
+            id: 4,
             pix: todo,
             name: 'Fredie App',
             src: 'https://dreamy-granita-d592df.netlify.app/',
