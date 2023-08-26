@@ -56,7 +56,7 @@ const Tools = () => {
 
             </div>
             <div ><p className='text-white md:text-xl my-7'>Here are some of the tools I use.</p></div>
-            <div className='flex flex-wrap gap-8 justify-center'>
+            <div className='flex flex-wrap gap-3 md:gap-8 justify-center'>
 
                 {
                     tool.map((item) => {
