@@ -5,6 +5,7 @@ import three from './Assets/three.png'
 import four from './Assets/four.png'
 import five from './Assets/five.png'
 import six from './Assets/six.png'
+import seven from './Assets/wordpress.png'
 
 const Tools = () => {
     const tool = [
@@ -38,6 +39,12 @@ const Tools = () => {
             name: 'FIREBASE',
             pix: six,
             id: 6
+        },
+
+        {
+            name: 'WORDPRESS',
+            pix: seven,
+            id: 7
         },
         
     ]

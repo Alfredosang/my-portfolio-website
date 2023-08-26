@@ -1,7 +1,7 @@
 import React from 'react'
 import swift from './Assets/swift.png'
 import moviez from './Assets/moviez.png'
-import todo from './Assets/todo.png'
+import wears from './Assets/jtwears.png'
 import classic from './Assets/classic.png'
 
 const Projects = () => {
@@ -30,10 +30,10 @@ const Projects = () => {
 
         {
             id: 4,
-            pix: todo,
-            name: 'Fredie App',
-            src: 'https://dreamy-granita-d592df.netlify.app/',
-            about: 'The Fredie app is merely a to-do list that facilitates the recording of your plans.'
+            pix: wears,
+            name: 'JT Wears',
+            src: 'https://jtwears.com/',
+            about: 'This is an e commerce store for a sportwear brand in the US.'
         }
     ]
     return (
@@ -42,7 +42,7 @@ const Projects = () => {
                 <h1 className='text-white font-bold text-2xl border-b-4 border-red-800 '>Projects</h1>
 
             </div>
-            <div className='flex flex-wrap gap-4 justify-center md:p-24'>
+            <div className='flex flex-wrap flex-col-reverse gap-4 justify-center md:p-24'>
                 {
                     project.map((item) => {
                         return (
