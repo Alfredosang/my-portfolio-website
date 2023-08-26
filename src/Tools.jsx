@@ -56,13 +56,13 @@ const Tools = () => {
 
             </div>
             <div ><p className='text-white md:text-xl my-7'>Here are some of the tools I use.</p></div>
-            <div className='flex flex-wrap gap-3 md:gap-8 justify-center'>
+            <div className='flex flex-wrap gap-5 md:gap-8 justify-center'>
 
                 {
                     tool.map((item) => {
                         return (
                             <div key={item.id} className='flex flex-col justify-center md:px-24 items-center'>
-                                <div className='flex flex-col items-center justify-center w-[150px] md:w-[200px]   bg-black shadow-md shadow-red-800 rounded-full '>
+                                <div className='flex flex-col items-center justify-center w-[130px] md:w-[200px]   bg-black shadow-md shadow-red-800 rounded-full '>
                                     <img src={item.pix} alt='HTML' className='  rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
