@@ -62,7 +62,7 @@ const Tools = () => {
                     tool.map((item) => {
                         return (
                             <div key={item.id} className='flex flex-col justify-center md:px-24 items-center'>
-                                <div className='flex flex-col items-center justify-center w-[130px] md:w-[200px]   bg-black shadow-md shadow-red-800 rounded-full '>
+                                <div className='flex flex-col items-center justify-center w-[130px] h-[130px] md:h-[200px] md:w-[200px]   bg-black shadow-md shadow-red-800 rounded-full '>
                                     <img src={item.pix} alt='HTML' className='  rotate-0 hover:rotate-45 duration-300 p-5' />
 
 
