@@ -3,6 +3,7 @@ import swift from './Assets/swift.png'
 import moviez from './Assets/moviez.png'
 import wears from './Assets/jtwears.png'
 import classic from './Assets/classic.png'
+import erilearn from './Assets/erilearnthumb.png'
 
 const Projects = () => {
     const project = [
@@ -34,6 +35,14 @@ const Projects = () => {
             name: 'JT Wears',
             src: 'https://jtwears.com/',
             about: 'This is an e commerce store for a sportwear brand in the US.'
+        },
+
+        {
+            id: 5,
+            pix: erilearn,
+            name: 'Erilearn',
+            src: 'https://erilearn.com/',
+            about: 'Erilearn is an Educational platform that enables tech enthusiasts learn any tech skill they need. I developed the frontend from a figma UI design using React, Tailwind Css and Framer motion.'
         }
     ]
     return (
