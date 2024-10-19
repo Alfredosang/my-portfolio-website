@@ -11,7 +11,7 @@ const About = () => {
 
                 <div>
 
-                    <p className='text-white sm:text-xl sm:p-16 '>With a Bachelor of Science in Computer Science
+                    <p className='text-white  sm:text-lg sm:p-16 '>With a Bachelor of Science in Computer Science
                         and certification as a React developer, I bring a robust technical foundation and a passion
                         for creating exceptional user experiences. My expertise lies in crafting reusable, scalable,
                         and optimized client-side features, structures, and designs that not only enhance the
